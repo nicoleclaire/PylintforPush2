@@ -2,7 +2,7 @@
 
 import sys
 
-from pylint import lint  
+from pylint import lint
 
 THRESHOLD = 7
 
@@ -15,6 +15,5 @@ if score < THRESHOLD:
     print("Linter failed: Score < threshold value")
 
     sys.exit(1)
-
 
 sys.exit(0)
